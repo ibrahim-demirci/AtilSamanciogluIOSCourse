@@ -20,26 +20,26 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CryptoCell" rowHeight="121" id="qtP-Ly-Cfk" customClass="CryptoTableViewCell" customModule="MVVMCryptoCurrencyApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="121"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CryptoCell" rowHeight="92" id="qtP-Ly-Cfk" customClass="CryptoTableViewCell" customModule="MVVMCryptoCurrencyApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="92"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qtP-Ly-Cfk" id="e0l-Ry-QaU">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="121"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ai-V7-1kf">
                                                     <rect key="frame" x="39" y="23" width="355" height="22"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="355" id="zl8-cH-JHf"/>
+                                                        <constraint firstAttribute="width" constant="355" id="hrJ-jf-ed8"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gj6-Ys-Vep">
-                                                    <rect key="frame" x="39" y="66" width="355" height="21"/>
+                                                    <rect key="frame" x="39" y="59" width="355" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="ga1-u9-s2N"/>
+                                                        <constraint firstAttribute="height" constant="21" id="6BW-IJ-Qxi"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -47,12 +47,12 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Gj6-Ys-Vep" secondAttribute="bottom" constant="23" id="IeS-lC-KeF"/>
-                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="top" secondItem="e0l-Ry-QaU" secondAttribute="topMargin" constant="12" id="Vff-v6-A74"/>
-                                                <constraint firstItem="Gj6-Ys-Vep" firstAttribute="top" secondItem="2Ai-V7-1kf" secondAttribute="bottom" constant="21" id="auS-aF-NnY"/>
-                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="leading" secondItem="Gj6-Ys-Vep" secondAttribute="leading" id="kN6-2m-CrP"/>
-                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="trailing" secondItem="Gj6-Ys-Vep" secondAttribute="trailing" id="uRc-fy-s8F"/>
-                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="trailing" secondItem="e0l-Ry-QaU" secondAttribute="trailingMargin" id="vqH-6N-hpY"/>
+                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="top" secondItem="e0l-Ry-QaU" secondAttribute="topMargin" constant="12" id="DeC-HG-4hG"/>
+                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="trailing" secondItem="Gj6-Ys-Vep" secondAttribute="trailing" id="Jyt-VC-xeD"/>
+                                                <constraint firstItem="Gj6-Ys-Vep" firstAttribute="top" secondItem="2Ai-V7-1kf" secondAttribute="bottom" constant="14" id="OpU-6X-sI3"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Gj6-Ys-Vep" secondAttribute="bottom" constant="1" id="QUS-0W-y0Y"/>
+                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="leading" secondItem="Gj6-Ys-Vep" secondAttribute="leading" id="eBg-k0-9gN"/>
+                                                <constraint firstItem="2Ai-V7-1kf" firstAttribute="trailing" secondItem="e0l-Ry-QaU" secondAttribute="trailingMargin" id="lmk-li-6NG"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -66,10 +66,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bHY-hG-amI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G57-3F-dtE"/>
-                            <constraint firstItem="bHY-hG-amI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mAh-2a-EOa"/>
-                            <constraint firstItem="bHY-hG-amI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vkb-ue-0bf"/>
-                            <constraint firstItem="bHY-hG-amI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xOy-Kn-Nux"/>
+                            <constraint firstItem="bHY-hG-amI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AT3-Cb-iGs"/>
+                            <constraint firstItem="bHY-hG-amI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BQy-4a-16G"/>
+                            <constraint firstItem="bHY-hG-amI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WDB-Z6-4NI"/>
+                            <constraint firstItem="bHY-hG-amI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ap8-hX-Aqs"/>
                         </constraints>
                     </view>
                     <connections>
